@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-lenguajes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-lenguajes figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header {
+    height: 450px;
+    background: url(img/lenguajes-programacion.jpg) no-repeat center top;
+    background-size: cover;
+
+}
+
+.navbar {
+    height: 63px;
+    background: #212121;
+    border-bottom: 1px dashed #3a3a37;
+}
+
+.navbar a {
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 20px;
+}
+
+.title {
+    margin-bottom: 40px;
+    font: 60px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 80px 0;
+
+}
+
+.abo {
+    background: #3a3126;
+    color: #fff;
+}
+
+.abo p {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+.lenguajes {
+    background: #252525;
+    color: #fff;
+}
+
+.portada lenguajes {
+    background: url(img/lenguajes-programacion.jpg) no-repeat center top;
+    color: #fff;
+    text-align: left;
+    background-size: cover;
+
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+} 
+
+.portada lenguajes p {
+    max-width: 450px;
+}
+
+.list-lenguajes figure {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.list-lenguajes figure:after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: #3a3126;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.list-lenguajes img {
+    position: relative;
+    z-index: 1;
+}
+
+.list-lenguajes li {
+    padding: 0 30px;
+}
+
+.list-lenguajes figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
+
+
+
+
+
+
